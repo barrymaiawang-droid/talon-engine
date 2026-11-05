@@ -53,13 +53,13 @@ One Strix Halo, version 0.1.0, prompt cache off, thinking off, 256-token answers
 
 | Context depth | Reading the prompt | Writing, code | Writing, prose |
 | ---: | ---: | ---: | ---: |
-| 2,048 | 1,230 | 59 | 48 |
-| 8,192 | 1,370 | 56 | 47 |
-| 32,768 | 1,390 | 57 | 57 |
-| 65,536 | 1,320 | 60 | 55 |
-| 131,072 | 1,200 | 61 | 51 |
-| 200,000 | 1,100 | 60 | 50 |
-| 258,000 | 1,040 | 59 | 48 |
+| 2,048 | 1,400 | 65 | 57 |
+| 8,192 | 1,460 | 65 | 58 |
+| 32,768 | 1,390 | 62 | 56 |
+| 65,536 | 1,310 | 58 | 54 |
+| 131,072 | 1,190 | 59 | 51 |
+| 200,000 | 1,090 | 59 | 50 |
+| 258,000 | 1,020 | 58 | 47 |
 
 With the prompt cache on, the next turn of a 29,000-token chat started in about 1 second instead of 22.
 
