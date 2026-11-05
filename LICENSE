@@ -1,0 +1,31 @@
+Talon Binary License 1.0
+
+Copyright (c) 2026 barrymaiawang-droid. All rights reserved.
+
+This license covers this release of the Talon executable package (the "Software"). It does not cover the model
+weights, which have their own license on their download page, or the third-party components listed in
+THIRD_PARTY_NOTICES.md, which keep their own licenses.
+
+1. Free use. You may download, install and run the Software at no charge.
+
+2. Commercial use. You may use the Software for commercial purposes at no charge if you notify the copyright holder
+   before you begin, by opening an issue at https://github.com/barrymaiawang-droid/talon-engine/issues that names your organization.
+
+3. Sharing. You may share copies of the Software only unmodified and complete, including this license.
+
+4. Restrictions. Except where the law does not allow this restriction, you may not modify, reverse engineer, decompile
+   or disassemble the Software, or remove its notices.
+
+5. Ownership. The Software is licensed, not sold. The copyright holder keeps all rights not granted here.
+
+6. Future versions. This license applies to this release only. The copyright holder may offer later versions under
+   different terms, including for a fee. Your rights in a release you already received under this license continue
+   as long as you follow it.
+
+7. Termination. Your rights end automatically if you break this license.
+
+8. No warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+9. No liability. TO THE EXTENT THE LAW ALLOWS, THE COPYRIGHT HOLDER IS NOT LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY ARISING FROM THE SOFTWARE OR ITS USE.
