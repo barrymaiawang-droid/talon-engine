@@ -17,9 +17,9 @@ Add yourself to the `render` and `video` groups, then log in again.
 **2. Download Talon.**
 
 ```bash
-curl -LO https://github.com/barrymaiawang-droid/talon-engine/releases/download/v0.1.0/talon-0.1.0-linux-x86_64.tar.gz
-tar -xzf talon-0.1.0-linux-x86_64.tar.gz
-cd talon-0.1.0-linux-x86_64
+curl -LO https://github.com/barrymaiawang-droid/talon-engine/releases/download/v0.1.1/talon-0.1.1-linux-x86_64.tar.gz
+tar -xzf talon-0.1.1-linux-x86_64.tar.gz
+cd talon-0.1.1-linux-x86_64
 ```
 
 **3. Download the model.** Accept the licence on the [model page](https://huggingface.co/cybermonkpunk/Qwen3.8-Flash-Next-Talon-E1) and [create a read token](https://huggingface.co/settings/tokens). The download verifies every file and can be resumed by running it again.
@@ -49,7 +49,7 @@ Run steps 2 to 5 as written. Step 1 needs a reboot and root: ask the user to do 
 
 ## Speed
 
-One Strix Halo, version 0.1.0, prompt cache off, thinking off, 256-token answers, two runs of each. Tokens per second.
+One Strix Halo, version 0.1.x (same engine since 0.1.0), prompt cache off, thinking off, 256-token answers, two runs of each. Tokens per second.
 
 | Context depth | Reading the prompt | Writing, code | Writing, prose |
 | ---: | ---: | ---: | ---: |
@@ -73,4 +73,4 @@ With the prompt cache on, the next turn of a 29,000-token chat started in about 
 - Stops repeating loops: a hidden nudge gets the model moving again
 - One self-contained download: no ROCm or Python to install
 
-Requests run one at a time, in order.
+Several clients can share one server. Requests run one at a time, but short ones (prompts up to 32,000 tokens) go first: a long prompt or a long answer pauses for them, so they reply in seconds. `./talon --preempt 0` turns this off.
